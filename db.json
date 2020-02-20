@@ -1,22 +1,24 @@
 {
-  "caller": "Ujjwal",
-  "sid": "27687",
-  "startDate": "11/01/2020 17:45:00",
-  "callerIdentity": {
-    "company": "ABCD",
-    "name": "UK Jha",
-    "phoneNumber": "8727653624"
-  },
-  "callLog": [
-    {
-      "operator": true,
-      "text": "Hello Ujjwal",
-      "time": "11/01/2020 17:45:00"
+  "status": {
+    "caller": "Ujjwal",
+    "sid": "27687",
+    "startDate": "11/01/2020 17:45:00",
+    "callerIdentity": {
+      "company": "ABCD",
+      "name": "UK Jha",
+      "phoneNumber": "8727653624"
     },
-    {
-      "operator": false,
-      "text": "How are you?",
-      "time": "11/01/2020 17:45:00"
-    }
-  ]
+    "callLog": [
+      {
+        "operator": true,
+        "text": "Hello Ujjwal",
+        "time": "11/01/2020 17:45:00"
+      },
+      {
+        "operator": false,
+        "text": "How are you?",
+        "time": "11/01/2020 17:45:00"
+      }
+    ]
+  }
 }
