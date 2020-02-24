@@ -3,31 +3,52 @@
       {
         "iid": "56456454",
         "type": "create_shipment",
-        "relevance": "0.85",
+        "relevance": "0.90",
         "parameters": {
           "shipper": "ABC123"
         }
       },
       {
         "iid": "56456453",
-        "type": "create_shipment_info",
-        "relevance": "0.60",
+        "type": "create_caller_info",
+        "relevance": "0.75",
         "parameters": {
           "phoneNumber": "+49123456789"
         }
       },
       {
         "iid": "56456451",
-        "type": "add_caller_information",
-        "relevance": "0.30",
+        "type": "get_shipment",
+        "relevance": "0.60",
         "parameters": {}
       },
       {
         "iid": "56456452",
-        "type": "recent_shipments",
-        "relevance": "0.26",
+        "type": "get_existing_quote",
+        "relevance": "0.55",
         "parameters": {
           "name": "John Smith"
+        },
+      {
+        "iid": "56456452",
+        "type": "create_quote",
+        "relevance": "0.50",
+        "parameters": {
+          "name": "Adam Smith"
+        },
+      {
+        "iid": "56456452",
+        "type": "get_recent_shipments",
+        "relevance": "0.45",
+        "parameters": {
+          "name": "Tonny Clarck"
+        },
+      {
+        "iid": "56456452",
+        "type": "update_shipment",
+        "relevance": "0.40",
+        "parameters": {
+          "name": "Tom Cruze"
         }
       }
     ]
