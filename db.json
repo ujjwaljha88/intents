@@ -1,9 +1,9 @@
 {
   "status": {
-    "text": "I would like to book a shipment from Hamburg to Hong Kong on the 1st of November 11/01/2020.aaaa",
-    "operator": true,
-    "time": "11/01/2020 17:57:00",
-    "sid": "bc748a3d-2825-4b6a-8c00-64fa62bf0842",
+    "text": "I would like to book a shipment from Hamburg to Hong Kong on the 1st of November.",
+    "operator": false,
+    "time": "11/01/2020 17:45:00",
+    "sid": "4784fdb864b4s6d4v64sf6b4s6",
     "keywords": [
       "Hong Kong",
       "Hamburg",
@@ -13,12 +13,32 @@
       {
         "iid": "56456454",
         "type": "create_shipment",
-        "relevance": "0.85"
+        "relevance": "0.85",
+        "parameters": {
+          "shipper": "ABC123"
+        }
       },
       {
-        "iid": "56456458",
-        "type": "create_caller_info",
-        "relevance": "0.90"
+        "iid": "56456453",
+        "type": "create_shipment_info",
+        "relevance": "0.60",
+        "parameters": {
+          "phoneNumber": "+49123456789"
+        }
+      },
+      {
+        "iid": "56456451",
+        "type": "add_caller_information",
+        "relevance": "0.30",
+        "parameters": {}
+      },
+      {
+        "iid": "56456452",
+        "type": "recent_shipments",
+        "relevance": "0.26",
+        "parameters": {
+          "name": "John Smith"
+        }
       }
     ]
   }
