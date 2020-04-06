@@ -1,14 +1,16 @@
 {
-	"trackingNumber":"0123456789"
-  "pod": "DEHAM",
-	"pol": "SGSIN",
-	"shipper": "Siemens AG",
-	"departureDate": "11/01/2020 17:45:20",
-	"arrivalDate": "21/01/2020 9:05:31",
-	"modeOfTransport": "SEA",
-	"serviceType": "FPG",
-	"incoTerm": "FCA",
-	"cargo": "",
-	"grossWeight": 21535.20,
-	"consignee": "Apple Inc."
+  "data": {
+    "trackingNumber": "0123456789",
+    "pod": "DEHAM",
+    "pol": "SGSIN",
+    "shipper": "Siemens AG",
+    "departureDate": "11/01/2020 17:45:20",
+    "arrivalDate": "21/01/2020 9:05:31",
+    "modeOfTransport": "SEA",
+    "serviceType": "FPG",
+    "incoTerm": "FCA",
+    "cargo": "4*20FT",
+    "grossWeight": 21535.2,
+    "consignee": "Apple Inc."
+  }
 }
